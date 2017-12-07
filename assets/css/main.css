@@ -66,6 +66,12 @@ a:hover {
   transition: .3s;
 }
 
+.topo--container__block p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6E6E6E
+}
+
 
 .menu--full {
   background: transparent;
