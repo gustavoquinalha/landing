@@ -1,0 +1,181 @@
+* {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-height-vh {
+  height: 100vh
+}
+
+.topo--container {
+  background-color: #29f26e;
+  background: url(../img/topo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.topo--container__block {
+  color: #fff;
+  font-size: 1.7rem;
+  transition: .3s;
+}
+
+
+.menu--full {
+  background: transparent;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo-img {
+  width: 120px;
+  max-width: 100%;
+}
+
+/*.menu--full__logo {}*/
+
+.content1 {
+  background: url(../img/12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content2 {
+  background: url(../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content3 {
+  background: url(../img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content4 {
+  background: url(../img/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content5 {
+  background: #fff;
+}
+
+.content5 .topo--container__block {
+  color: #333
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.box--padding {
+  padding: 50px;
+}
+
+.box-sizing-fix {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer {
+  min-height: 400px;
+  background: #150928;
+  padding: 50px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .topo--container {
+    padding: 50px;
+  }
+  .box--padding {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .topo--container {
+    padding: 20px;
+  }
+  .topo--container__block {
+    font-size: 1.3rem
+  }
+  .box--padding {
+    padding: 20px;
+  }
+}
+
+
+.btn {
+  background: #29f26e;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1BCF59;
+  color: #fff;
+}
